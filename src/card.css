@@ -1,0 +1,28 @@
+#card {
+  height: 350px;
+  width: 310px;
+  margin: 20px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  border: 10px;
+  border-radius: 20px;
+
+
+
+}
+
+#card CardMedia {
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#cardbody {
+  background-image: linear-gradient(180deg, #a1c4fd 30%, #c2e9fb 0%);
+
+}
+
+#card:hover {
+  height: 360px;
+  width: 320px;
+  border-radius: 10px;
+}

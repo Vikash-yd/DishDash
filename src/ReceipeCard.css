@@ -1,0 +1,20 @@
+.DishCard {
+    padding: 20px;
+    height: 200vh;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#card2 {
+    padding: 40px;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    border: black;
+    border-radius: 20px;
+}
