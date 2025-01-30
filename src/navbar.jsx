@@ -88,7 +88,7 @@ function NavScrollExample() {
 
   let fetchUrl = async () => {
     let url = "https://api.spoonacular.com/recipes/complexSearch";
-    let API_KEY = "11462d0d088a4c159992278698b87159";
+    let API_KEY = "76d58a9c1dc1494eb5cb42db69fb607d";
     let res = await fetch(`${url}?apiKey=${API_KEY}&query=${dish}`);
     let jsonRes = await res.json();
     let data = jsonRes.results;

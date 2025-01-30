@@ -13,9 +13,9 @@ function Receipe() {
   let fetchUrl = async () => {
     console.log(params.id);
     let url = "https://api.spoonacular.com/recipes/complexSearch";
-    let API_KEY = "11462d0d088a4c159992278698b87159";
+    let API_KEY = "76d58a9c1dc1494eb5cb42db69fb607d";
     let url2 = `https://api.spoonacular.com/recipes/${params.id}/information?apiKey=${API_KEY}`;
-    let url3 = `https://api.spoonacular.com/recipes/${params.id}/card?apiKey=11462d0d088a4c159992278698b87159`
+    let url3 = `https://api.spoonacular.com/recipes/${params.id}/card?apiKey=76d58a9c1dc1494eb5cb42db69fb607d`
     let res = await fetch(url2);
     let jsonRes = await res.json();
     console.log(jsonRes.extendedIngredients
@@ -28,9 +28,9 @@ function Receipe() {
   let fetchUrl2 = async () => {
     console.log(params.id);
     let url = "https://api.spoonacular.com/recipes/complexSearch";
-    let API_KEY = "11462d0d088a4c159992278698b87159";
+    let API_KEY = "76d58a9c1dc1494eb5cb42db69fb607d";
     let url2 = `https://api.spoonacular.com/recipes/${params.id}/information?apiKey=${API_KEY}`;
-    let url3 = `https://api.spoonacular.com/recipes/${params.id}/card?apiKey=11462d0d088a4c159992278698b87159`
+    let url3 = `https://api.spoonacular.com/recipes/${params.id}/card?apiKey=76d58a9c1dc1494eb5cb42db69fb607d`
     let res = await fetch(url3);
     let jsonRes = await res.json();
     console.log(jsonRes.extendedIngredients

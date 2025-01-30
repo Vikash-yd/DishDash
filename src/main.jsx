@@ -9,15 +9,15 @@ import {
 } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/receipe",
+    path: "/DishDash/receipe",
     element: <Receipe />,
   },
   {
-    path: "/",
+    path: "/DishDash/",
     element: <App />,
   },
   {
-    path: "/receipe/:id",
+    path: "/DishDash/receipe/:id",
     element: <Receipe />,
   },
 ]);
