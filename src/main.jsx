@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 const router = createBrowserRouter([
   {
-    path: "/DishDash/receipe",
+    path: "/receipe",
     element: <Receipe />,
   },
   {
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/DishDash/receipe/:id",
+    path: "/receipe/:id",
     element: <Receipe />,
   },
 ]);
