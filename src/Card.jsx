@@ -73,7 +73,7 @@ export default function RecipeReviewCard({ id, title, image }) {
               <ShareIcon />
             </IconButton>
             <Form value={id} className="d-flex">
-              <Link to={`/receipe/${id}`}>
+              <Link to={`/DishDash/receipe/${id}`}>
                 {" "}
                 <Button variant="outline-success">See Receipe</Button>
               </Link>

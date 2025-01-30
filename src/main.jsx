@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/receipe/:id",
+    path: "/DishDash/receipe/:id",
     element: <Receipe />,
   },
 ]);
